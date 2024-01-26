@@ -14,7 +14,8 @@ export const ShareButton: React.FC<ShareButtonProps> = ({onClick}) => {
         //   position: 'absolute',
         //   right: 20,
           padding: '5px 12px',
-          marginRight: '20px'
+          marginRight: '20px',
+          display: 'none'
         },
         icon: {
           color: '#FFFFFF',
@@ -50,6 +51,7 @@ export const HistoryButton: React.FC<HistoryButtonProps> = ({onClick, text}) => 
         root: {
             width: '180px',
             border: `1px solid #D1D1D1`,
+            display: 'none',
           },
           rootHovered: {
             border: `1px solid #D1D1D1`,
